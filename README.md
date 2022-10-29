@@ -1,2 +1,1 @@
-# CSharp_FullUchebka
-# CSharp_FullUchebka
+Собрал в кучку все свои файлы
