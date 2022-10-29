@@ -24,7 +24,7 @@ for (int i = 0; i < (numz.Length)/2; i++)
 Console.WriteLine(String.Join(",", numz));*/
 
 
-string Replase(string text, char oldValue, char newValue)
+/*string Replase(string text, char oldValue, char newValue)
 {
     string result = String.Empty;
     int length = text.Length;
@@ -44,6 +44,10 @@ string Replase(string text, char oldValue, char newValue)
 System.Console.WriteLine("Vvedite text");
 string oldText = (Console.ReadLine()?? "0");
 string newText = Replase(oldText, ' ', '|');
-Console.WriteLine(newText);
-
+Console.WriteLine(newText);*/
+Random random = new Random();
+double mantissa = (random.NextDouble() * 2.0) - 1.0;
+double exponent = Math.Pow(2.0, random.Next(-126, 128));
+double ex = mantissa*exponent;
+Console.WriteLine(ex);  
 
