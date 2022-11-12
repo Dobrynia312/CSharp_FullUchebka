@@ -22,7 +22,7 @@ void PrintArray(int[,] array)
                     Console.Write(" ");
                 }
                 else 
-                {Console.Write($"{array[i,j]}" );}
+                {Console.Write($"{array[i,j]} ");}
             }Console.WriteLine();
     }
 }
